@@ -1,0 +1,30 @@
+{
+  "name": "moralis-cloud-decorators",
+  "version": "0.0.1",
+  "description": "Decorators from Moralis.io ",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.ts",
+    "install": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.4.2",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.13.1",
+    "moralis": "0.0.41",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.1.8",
+    "typedi": "^0.10.0",
+    "web3": "^1.5.2"
+  }
+}
